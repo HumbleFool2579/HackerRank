@@ -15,7 +15,7 @@ public class FindDigits {
 
         for(i = 0;i<N;i++){
             num = s.nextLong();
-            temp = num;
+            temp = num; // testing the git commit
             count = 0;
             while(temp>0){
                 digit = temp%10;
