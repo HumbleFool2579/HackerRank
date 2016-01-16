@@ -1,0 +1,17 @@
+    public static void main(String[] args) {
+        Scanner S = new Scanner(System.in);
+        ArrayList<Integer> X = new ArrayList<>();
+        ArrayList<Integer> Y = new ArrayList<>();
+
+        int points;
+        points = S.nextInt();
+        for (int i = 0; i < points; i++) {
+            X.add(S.nextInt());
+        }
+        for (int i = 0; i < points; i++) {
+            Y.add(S.nextInt());
+        }
+        Reach R = new Reach();
+        int answer = R.coverPoints(X, Y);
+        System.out.println(answer);
+    }
