@@ -14,6 +14,8 @@ public class ArrayImpl {
             B.set(i + A.size(), A.get((A.size() - i) % A.size()));
         }
         return B;
+
+
     }
 
     public static void main(String[] args) {
